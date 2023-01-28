@@ -14,13 +14,19 @@ function App() {
   }
 
   const {question, incorrect_answers, correct_answer} = questions[index]
-  const answers = [...incorrect_answers, correct_answer]
-  console.log(questions)
+  let answers = [...incorrect_answers]
+  const tempIndex = Math.floor(Math.random() * 4)
+  if (tempIndex == 3) {
+    answers.push(correct_answer)
+  } else {
+    answers.push(answers[tempIndex])
+    answers[tempIndex] = correct_answer
+  }
   return <main>
     <Modal />
     <section className="quiz">
       <p className="correct-answers">
-        correct answers : {correct}/{index + 1}
+        correct answers : {correct}/{index}
       </p>
       <article className="container">
         <h2 dangerouslySetInnerHTML={{__html:question}} />
