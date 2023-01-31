@@ -6,6 +6,27 @@ A collection of projects built with React while learning through various tutoria
 - Birthday Reminder
 - Cart
 - Cocktails
+- Color Generator
+- Dark Mode
+- E-Commerce
+- Grocery Bud
+- HackerNews
+- Lorem Ipsum
+- Markdow Preview
+- Menu
+- Movie DB
+- Navbar
+- Pagination
+- Quiz
+- Random Person
+- React Notes
+- Reviews
+- Sidebar Modal
+- Slider
+- Stock Photo
+- Stripe Submenus
+- Tabs
+- Tours
 
 ## Getting Started
 1. Clone the repository: `git clone https://github.com/[YOUR_USERNAME]/ReactProjects.git`
