@@ -38,8 +38,6 @@ A collection of projects built with React while learning through various tutoria
 
 ## Built With
 - [React](https://reactjs.org)
-- [Bootstrap](https://getbootstrap.com)
-- [API's](https://openweathermap.org/api, https://quotes.rest)
 
 ## Contributing
 Feel free to submit pull requests and add your own projects to this repository.
